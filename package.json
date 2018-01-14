@@ -3,9 +3,9 @@
 	"version" : "0.0.1",
 	"description" : "Testing node and server",
 	"author" : "Marcel Hasemann",
-	"main" : "ServerTest.js",
+	"main" : "Servertest.js",
 	"scripts" : {
-		"start" : "node ServerTest.js"
+		"start" : "node Servertest.js"
 	},
 	"engines" : {
 		"node" : "6.11.1"
