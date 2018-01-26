@@ -36,7 +36,7 @@ var ServerTest;
         _response.write("Headers: " + _request.headers + "<br>");
         // ?
         let query = Url.parse(_request.url, true).query;
-        console.log(Url.parse(_request.url, true));
+        console.log(Url.parse(_request.url, false));
         // ?
         for (let key in query)
             console.log(key + ": " + query[key]);
